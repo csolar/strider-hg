@@ -1,0 +1,23 @@
+{
+  "name": "strider-hg",
+  "version": "0.1.0",
+  "description": "Basic mercurial provider for Strider Continuous Deployment",
+  "main": "worker.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "step": "~0.0.5",
+    "fs-extra": "~0.10.0",
+    "shell-escape": "~0.1.0"
+  },
+  "keywords": [
+    "strider",
+    "plugin",
+    "provider",
+    "mercurial",
+    "hg"
+  ],
+  "author": "Cristiano Solarino <cristiano.solarino@brightminded.com>",
+  "license": "MIT"
+}
